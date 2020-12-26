@@ -9,11 +9,11 @@ function Navbar () {
 
   return (
     <div>
-      <AppBar position='fixed' className={classes.appBar} color='#3A4248'>
+      <AppBar position='fixed' className={classes.appBar} color='primary'>
         <Toolbar>
           <Typography variant='h6' className={classes.title} color='inherit'>
-            <img src={logo} alt='Raven Commerce' height='25px' className={classes.image} />
-       Raven Commerce
+            <img src={logo} alt='Raven Tech' height='25px' className={classes.image} />
+       Raven Tech
           </Typography>
           <div className={classes.grow} />
 
