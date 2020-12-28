@@ -20,7 +20,7 @@ function Cart ({ cart, updateCardQuantity, removeFromCart, emptyCart }) {
           <Grid item xs={12} sm={4} key={item.id}>
             <CartItem
               item={item}
-              updateCardQuantity={updateCardQuantity}
+              updateCardQty={updateCardQuantity}
               removeFromCart={removeFromCart}
             />
           </Grid>

@@ -23,8 +23,8 @@ function App () {
     setCart(cart)
   }
 
-  const updateCardQuantity = async (productId, productQuantity) => {
-    const { cart } = await commerce.cart.update(productId, { productQuantity })
+  const updateCardQuantity = async (productId, quantity) => {
+    const { cart } = await commerce.cart.update(productId, { quantity })
     setCart(cart)
     console.log(cart)
   }
